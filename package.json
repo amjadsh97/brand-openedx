@@ -1,10 +1,16 @@
 {
-  "name": "@openedx/brand-openedx",
-  "version": "1.0.0-semantically-released",
-  "description": "The default branding and SASS theme package containing for Open edX applications. This package is designed to be copied and customized.",
+  "name": "@zeit/brand-custom",
+  "version": "1.0.0",
+  "description": "Custom brand for Open edX",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/openedx/brand-openedx.git"
+  },
+  "dependencies": {
+    "@edx/brand": "git+https://github.com/amjadsh97/brand-openedx.git#my-custom-brand"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
   },
   "author": "Open edX Community",
   "license": "GPL-3.0-or-later",
@@ -14,5 +20,10 @@
   "homepage": "https://github.com/openedx/brand-openedx#readme",
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "sass": "^1.83.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
   }
 }
