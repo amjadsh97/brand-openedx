@@ -1,9 +1,17 @@
 // Use this file to set SASS variables for @edx/paragon
 // See _variables.scss in https://github.com/openedx/paragon/blob/master/scss/core/ for reference
 
-$primary-color: #123456; // Replace with your brand's primary color
-$secondary-color: #654321;
+$primary-color: #2f8bec;
+$secondary-color: #abcdef;
 
 // Theme fonts
 $font-family-title: 'Poppins', sans-serif;
 
+$font-family-sans-serif: 'Poppins', sans-serif !default;
+
+$primary: #2f8bec;
+$primary-light: #d91bff;
+$light-dark: rgba(255, 26, 162, 0.62);
+$text-color: #ff1f1f;
+$text-color-primary: #515661;
+$text-color-light: #515661;
