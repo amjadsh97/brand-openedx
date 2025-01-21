@@ -10,8 +10,22 @@ body {
 }
 
 .btn-brand {
-  color: #fff;
-  background-color: #D23228;
-  border-color: #D23228;
+  color: #000000;
+  background-color: unset;
   box-shadow: none;
+  border: 1px solid;
+  font-weight: 800;
+  border-radius: 40px;
+}
+
+.btn-inverse-primary {
+  font-weight: 600;
+  padding: 10px !important;
+  background: transparent;
+}
+
+.btn.pgn__avatar-button-avatar {
+  background: transparent;
+  border: unset;
+  font-weight: 600;
 }
