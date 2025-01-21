@@ -1,6 +1,6 @@
 {
   "name": "@amjadsh97/brand-openedx",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "dependencies": {},
   "description": "The default branding and SASS theme package containing for Open edX applications. This package is designed to be copied and customized.",
   "repository": {
