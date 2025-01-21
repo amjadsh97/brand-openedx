@@ -1,10 +1,14 @@
 // Use this file to define style overrides for @edx/paragon
 // This file is included after all Paragon styles, but should generally avoid using private mixins in Paragon.
 
-* {
-  outline: 1px solid crimson !important;
-  background-color: crimson !important;
+
+body {
+  background-image: url("./images/bg-home.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
+
 .btn-brand {
   color: #fff;
   background-color: #D23228;
